@@ -1,1 +1,124 @@
+@font-face {
+    font-family: 'Simpsons';
+    src: url('./fonts/Simpsonfont.ttf') format('truetype');
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'Simpsons', Arial, Helvetica, sans-serif;
+  }
 
+ 
+  
+  html {
+    height: 100%;
+;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    background-image: url(/public/img/background.jpeg);
+    background-size: cover;
+}
+
+  /* html, body {
+    max-width: 100vw;
+    margin: 0;
+    background-image: url(/public/img/background.jpeg);
+    background-size: cover;
+  } */
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  #root {
+    /* width: 100%; */
+    height: 100%;
+  }
+  
+  .App {
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  header {
+    background: darkblue;
+    color: gold;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .score {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .bestScore {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw;
+  }
+
+  .cardGrid {
+    height: auto;
+    max-width: 100%;
+    margin: 0 10vw; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    place-items: center;
+  }
+  
+  .card {
+    background: lightpink;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card:Hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px gold;
+  }
+  
+  .cardImg {
+    max-height: 250px;
+    max-width: 100%;
+    height: auto;
+    /* height: ; */
+  }
+  
+  footer {
+    background: lightblue;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

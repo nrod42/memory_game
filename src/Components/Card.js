@@ -1,17 +1,12 @@
 import React from "react";
 
 const Card = (props) => {
-  const { setPoints, randomize } = props;
-  //   const randomize = props.randomize;
+  const { handleClick } = props;
   const { id, name, img } = props.character;
 
-  const handleClick = () => {
-    randomize();
-    setPoints((prevState) => prevState + 1);
-  };
   return (
-    <div className="card" onClick={handleClick}>
-      <img src={img} alt={name} />
+    <div className="card" onClick={() => handleClick(id)}>
+      <img className={"cardImg"} src={img} alt={name} />
       <h2>{name}</h2>
     </div>
   );

@@ -1,13 +1,15 @@
 import React from "react";
 
 const Header = (props) => {
-  const { points } = props;
+  const { score, best } = props;
   return (
-    <div className="header">
+    <header className="header">
       <h1>The Simpsons Memory Game</h1>
-
-      <p>Points: {points}</p>
-    </div>
+      <div className="score">
+        <p className="bestScore">Best Score: {best}</p>
+        <p>Current Score: {score}</p>
+      </div>
+    </header>
   );
 };
 
