@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3405636.css",
+    "main.js": "/static/js/main.3fb56c4b.js",
+    "static/media/The_Simpsons_cut.mp3": "/static/media/The_Simpsons_cut.5288e8aa7afd5b62f88e.mp3",
+    "static/media/background.jpeg": "/static/media/background.eecc418fedff46ea2f9a.jpeg",
+    "static/media/Simpsonfont.ttf": "/static/media/Simpsonfont.77baab89c72d6e126765.ttf",
+    "index.html": "/index.html",
+    "main.b3405636.css.map": "/static/css/main.b3405636.css.map",
+    "main.3fb56c4b.js.map": "/static/js/main.3fb56c4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3405636.css",
+    "static/js/main.3fb56c4b.js"
+  ]
+}
