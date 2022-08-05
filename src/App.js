@@ -31,9 +31,20 @@ const App = () => {
     }
   };
 
+  let theme = new Audio("/audio/The_Simpsons.mp3")
+  const playTheme = () => {
+    theme.play()
+  }
+
   return (
     <div className="App">
       <Header score={score} best={best}/>
+      <button className={"playBtn"} onClick={playTheme}>
+        <img
+          src={window.location.origin + "/img/volume.svg"}
+          alt="sound on">
+        </img>
+      </button>
       <main>
           <div className="cardGrid">
             {randomize().map((character) => (
