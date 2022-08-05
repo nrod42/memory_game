@@ -1,4 +1,6 @@
 import React from "react";
+import volume from "../img/volume.svg";
+import mute from "../img/mute.svg";
 
 const Header = (props) => {
   const { score, best, toggleSound, isPlaying } = props;
@@ -12,10 +14,7 @@ const Header = (props) => {
       </div>
       <button className={"playBtn"} onClick={toggleSound}>
         <img
-          src={
-            window.location.origin +
-            (isPlaying ? "/img/volume.svg" : "/img/mute.svg")
-          }
+          src={window.location.origin + (isPlaying ? volume : mute)}
           alt={isPlaying ? "sound on button" : "mute button"}
         ></img>
       </button>

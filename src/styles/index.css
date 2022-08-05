@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Simpsons';
-    src: url('./fonts/Simpsonfont.ttf') format('truetype');
+    src: url('/src/fonts/Simpsonfont.ttf') format('truetype');
   }
   
   * {
@@ -15,7 +15,7 @@
   body {
     height: 100%;
     margin: 0;
-    background-image: url(/public/img/background.jpeg);
+    background-image: url("/src/img/background.jpeg");
     background-size: cover;
   }
   

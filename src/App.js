@@ -1,4 +1,4 @@
-import "./index.css";
+import "./styles/index.css";
 import React, { useState, useEffect, useRef } from "react";
 import { characters, randomize } from "./Components/Characters";
 import Header from "./Components/Header";
