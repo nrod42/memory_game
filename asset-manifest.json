@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b3405636.css",
-    "main.js": "/static/js/main.b3314348.js",
+    "main.js": "/static/js/main.d43b57ee.js",
     "static/media/The_Simpsons_cut.mp3": "/static/media/The_Simpsons_cut.5288e8aa7afd5b62f88e.mp3",
     "static/media/background.jpeg": "/static/media/background.eecc418fedff46ea2f9a.jpeg",
     "static/media/Ralph.png": "/static/media/Ralph.00b084c44bf4a2229360.png",
@@ -33,10 +33,10 @@
     "index.html": "/index.html",
     "static/media/volume.svg": "/static/media/volume.2920376afc228f669518e89ea4309642.svg",
     "main.b3405636.css.map": "/static/css/main.b3405636.css.map",
-    "main.b3314348.js.map": "/static/js/main.b3314348.js.map"
+    "main.d43b57ee.js.map": "/static/js/main.d43b57ee.js.map"
   },
   "entrypoints": [
     "static/css/main.b3405636.css",
-    "static/js/main.b3314348.js"
+    "static/js/main.d43b57ee.js"
   ]
 }
