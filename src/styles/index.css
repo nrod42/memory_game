@@ -15,7 +15,7 @@
   body {
     height: 100%;
     margin: 0;
-    background-image: url("/src/img/background.jpeg");
+    background-image: url("/src/img/background.webp");
     background-size: cover;
   }
   
