@@ -1,9 +1,9 @@
-import "./styles/index.css";
 import React, { useState, useEffect, useRef } from "react";
 import { characters, randomize } from "./Components/Characters";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Card from "./Components/Card";
+import "./index.css";
 import theme from "./audio/The_Simpsons_cut.mp3";
 
 const App = () => {
