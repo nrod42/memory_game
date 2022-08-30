@@ -40,7 +40,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "homepage": "http://nrod42.github.io/memory_game"
-  }
-
+  },
+  "homepage": "http://nrod42.github.io/memory_game"
 }
